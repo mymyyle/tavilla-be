@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_header_description_images",
+  "info": {
+    "displayName": "HeaderDescriptionImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_hero_banners",
+  "info": {
+    "singularName": "page-hero-banner",
+    "pluralName": "page-hero-banners",
+    "displayName": "Page Hero Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageName": {
+      "type": "string",
+      "required": true
+    },
+    "PageDescription": {
+      "type": "text",
+      "required": true
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ONLY_FOR_DEV": {
+      "type": "uid",
+      "targetField": "PageName"
+    }
+  }
+}
