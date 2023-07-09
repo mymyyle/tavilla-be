@@ -16,18 +16,23 @@
     }
   },
   "attributes": {
-    "HeroBannerImage": {
+    "heroBannerImage": {
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
     },
-    "HeroBannerSubHeader": {
+    "heroBannerSubHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -36,7 +41,7 @@
       "type": "string",
       "required": true
     },
-    "HeroBannerHeader": {
+    "heroBannerHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -45,7 +50,7 @@
       "type": "string",
       "required": true
     },
-    "ViewMoreButtonLabel": {
+    "viewMoreButtonLabel": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -54,7 +59,7 @@
       "type": "string",
       "required": true
     },
-    "AboutUsHeader": {
+    "aboutUsHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -63,7 +68,7 @@
       "type": "string",
       "required": true
     },
-    "AboutUsContent": {
+    "aboutUsContent": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -77,18 +82,23 @@
       "customField": "plugin::ckeditor.CKEditor",
       "required": true
     },
-    "AboutUsImage": {
+    "aboutUsImage": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "FacilitiesHeader": {
+    "facilitiesHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -97,7 +107,7 @@
       "type": "string",
       "required": true
     },
-    "FacilitiesItems": {
+    "facilitiesItems": {
       "displayName": "HeaderDescriptionImage",
       "type": "component",
       "repeatable": true,
@@ -111,7 +121,7 @@
       "min": 6,
       "max": 6
     },
-    "RoomsHeader": {
+    "roomsHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -125,7 +135,7 @@
       "relation": "oneToMany",
       "target": "api::room.room"
     },
-    "ExperienceHeader": {
+    "experienceHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -134,7 +144,7 @@
       "type": "string",
       "required": true
     },
-    "ExperienceContent": {
+    "experienceContent": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -147,18 +157,20 @@
       },
       "customField": "plugin::ckeditor.CKEditor"
     },
-    "ExperienceImage": {
+    "experienceImage": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
     },
-    "ExperienceButtonLabel": {
+    "experienceButtonLabel": {
       "pluginOptions": {
         "i18n": {
           "localized": true

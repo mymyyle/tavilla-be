@@ -6,21 +6,18 @@
   },
   "options": {},
   "attributes": {
-    "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true
+    },
+    "fontAwesomeKey": {
+      "type": "string",
+      "required": true,
+      "unique": false
     }
   }
 }
