@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "ShortDescription": {
+    "shortDescription": {
       "type": "text",
       "required": true,
       "pluginOptions": {
@@ -25,7 +25,7 @@
         }
       }
     },
-    "FacebookLink": {
+    "facebookLink": {
       "type": "string",
       "required": true,
       "pluginOptions": {
@@ -34,7 +34,7 @@
         }
       }
     },
-    "InstagramLink": {
+    "instagramLink": {
       "type": "text",
       "required": true,
       "pluginOptions": {
@@ -43,7 +43,7 @@
         }
       }
     },
-    "AirbnbLink": {
+    "airbnbLink": {
       "type": "string",
       "required": true,
       "pluginOptions": {
@@ -52,7 +52,7 @@
         }
       }
     },
-    "BookingLink": {
+    "bookingLink": {
       "type": "string",
       "required": true,
       "pluginOptions": {
@@ -61,7 +61,7 @@
         }
       }
     },
-    "ContactHeader": {
+    "contactHeader": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -70,7 +70,7 @@
       "type": "string",
       "required": true
     },
-    "Address": {
+    "address": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -79,7 +79,7 @@
       "type": "string",
       "required": true
     },
-    "Email": {
+    "email": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -88,7 +88,7 @@
       "type": "string",
       "required": true
     },
-    "PhoneNumber": {
+    "phoneNumber": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -97,20 +97,20 @@
       "type": "string",
       "required": true
     },
-    "MapImage": {
+    "mapImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      },
-      "required": true
+      }
     },
-    "MapLink": {
+    "mapLink": {
       "pluginOptions": {
         "i18n": {
           "localized": true

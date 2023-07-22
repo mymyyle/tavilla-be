@@ -4,7 +4,8 @@
   "info": {
     "singularName": "room",
     "pluralName": "rooms",
-    "displayName": "Room"
+    "displayName": "Room",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "RoomName": {
+    "roomName": {
       "type": "string",
       "required": true,
       "pluginOptions": {
@@ -25,36 +26,35 @@
       }
     },
     "slug": {
-      "type": "uid",
-      "targetField": "RoomName"
+      "type": "uid"
     },
-    "VerticalCover": {
-      "allowedTypes": [
-        "images"
-      ],
+    "verticalCover": {
       "type": "media",
       "multiple": false,
       "required": true,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "HorizontalCover": {
-      "allowedTypes": [
-        "images"
-      ],
+    "horizontalCover": {
       "type": "media",
       "multiple": false,
       "required": true,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "RoomDescription": {
+    "roomDescription": {
       "type": "text",
       "required": false,
       "pluginOptions": {
@@ -63,7 +63,7 @@
         }
       }
     },
-    "FacilitiesContent": {
+    "facilitiesContent": {
       "type": "customField",
       "options": {
         "output": "HTML",
@@ -71,36 +71,90 @@
       },
       "customField": "plugin::ckeditor.CKEditor"
     },
-    "RoomImages": {
-      "allowedTypes": [
-        "images"
-      ],
+    "roomImages": {
       "type": "media",
       "multiple": true,
       "required": true,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "MidweekPrice": {
-      "type": "string",
-      "required": true,
+    "mondayPrice": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "biginteger",
+      "required": true
     },
-    "WeekendPrice": {
-      "type": "string",
-      "required": true,
+    "tuesdayPrice": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "wednesdayPrice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "thursdayPrice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "fridayPrice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "type": "biginteger"
+    },
+    "saturdayPrice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "sundayPrice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "priceUnit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
