@@ -7,5 +7,5 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool("WEBHOOKS_POPULATE_RELATIONS", false),
   },
-  url: "http://103.106.105.185/strapi",
+  url: env("PUBLIC_URL", ""),
 });

@@ -12,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "ShortDescription": {
+    "shortDescription": {
       "type": "string",
       "required": true
     },
-    "CoverImage": {
+    "coverImage": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -29,7 +29,7 @@
         "images"
       ]
     },
-    "BlogContent": {
+    "blogContent": {
       "type": "customField",
       "options": {
         "output": "HTML",
@@ -44,8 +44,7 @@
       "inversedBy": "blogs"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "Title"
+      "type": "uid"
     }
   }
 }

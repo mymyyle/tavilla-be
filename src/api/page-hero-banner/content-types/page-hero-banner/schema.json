@@ -12,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "PageName": {
+    "pageName": {
       "type": "string",
       "required": true
     },
-    "PageDescription": {
+    "pageDescription": {
       "type": "text",
       "required": true
     },
-    "Images": {
+    "images": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -29,8 +29,7 @@
       ]
     },
     "ONLY_FOR_DEV": {
-      "type": "uid",
-      "targetField": "PageName"
+      "type": "uid"
     }
   }
 }
