@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "reload_websites",
+  "info": {
+    "singularName": "reload-website",
+    "pluralName": "reload-websites",
+    "displayName": "Reload Website"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "randomNumber": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
