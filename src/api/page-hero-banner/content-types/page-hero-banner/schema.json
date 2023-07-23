@@ -47,10 +47,6 @@
         }
       }
     },
-    "ONLY_FOR_DEV": {
-      "type": "uid",
-      "required": true
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
@@ -61,6 +57,15 @@
           "localized": true
         }
       }
+    },
+    "ONLY_FOR_DEV": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
