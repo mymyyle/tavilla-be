@@ -155,7 +155,8 @@
         "output": "HTML",
         "preset": "rich"
       },
-      "customField": "plugin::ckeditor.CKEditor"
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": true
     },
     "experienceImage": {
       "type": "media",
@@ -187,7 +188,17 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
+    },
+    "viewMoreButtonLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

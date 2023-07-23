@@ -4778,6 +4778,11 @@ dotenv@8.5.1:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.5.1.tgz#e3a4c7862daba51b92bce0da5c349f11faa28663"
   integrity sha512-qC1FbhCH7UH7B+BcRNUDhAk04d/n+tnGGB1ctwndZkVFeehYJOn39pRWWzmdzpFqImyX1KB8tO0DCHLf8yRaYQ==
 
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+
 ecdsa-sig-formatter@1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz#ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf"

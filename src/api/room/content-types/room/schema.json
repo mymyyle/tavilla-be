@@ -56,7 +56,7 @@
     },
     "roomDescription": {
       "type": "text",
-      "required": false,
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -69,7 +69,8 @@
         "output": "HTML",
         "preset": "rich"
       },
-      "customField": "plugin::ckeditor.CKEditor"
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": true
     },
     "roomImages": {
       "type": "media",
