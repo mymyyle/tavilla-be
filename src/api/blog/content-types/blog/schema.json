@@ -20,15 +20,6 @@
       "type": "string",
       "required": true
     },
-    "coverImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "private": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "blogContent": {
       "type": "customField",
       "options": {
@@ -46,6 +37,14 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "coverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
