@@ -97,23 +97,10 @@
       "type": "string",
       "required": true
     },
-    "mapImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+    "mapSrc": {
       "pluginOptions": {
         "i18n": {
           "localized": false
-        }
-      }
-    },
-    "mapLink": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
         }
       },
       "type": "string",
