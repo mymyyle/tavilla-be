@@ -11,13 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-i18n": "4.10.1",
     "@strapi/plugin-users-permissions": "4.10.1",
     "@strapi/strapi": "4.10.1",
     "better-sqlite3": "8.0.1",
     "dotenv": "^16.3.1",
-    "strapi-plugin-oembed": "^1.0.1",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
