@@ -16,18 +16,6 @@
     }
   },
   "attributes": {
-    "roomName": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "slug": {
-      "type": "uid"
-    },
     "verticalCover": {
       "type": "media",
       "multiple": false,
@@ -170,6 +158,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
     }
   }
 }
