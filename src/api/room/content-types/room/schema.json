@@ -150,10 +150,10 @@
       "type": "string",
       "required": true
     },
-    "roomKey": {
+    "roomName": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string",
