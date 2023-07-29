@@ -20,15 +20,6 @@
       "type": "string",
       "required": true
     },
-    "blogContent": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor",
-      "required": true
-    },
     "author": {
       "type": "relation",
       "relation": "manyToOne",
@@ -45,6 +36,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "blogContent": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

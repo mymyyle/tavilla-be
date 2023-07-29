@@ -51,20 +51,6 @@
         }
       }
     },
-    "facilitiesContent": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "roomImages": {
       "type": "media",
       "multiple": true,
@@ -168,6 +154,15 @@
       "type": "string",
       "required": true,
       "unique": false
+    },
+    "facilitiesContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
     }
   }
 }
