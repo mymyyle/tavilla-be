@@ -27,7 +27,9 @@
       "inversedBy": "blogs"
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
     },
     "coverImg": {
       "type": "media",
